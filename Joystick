@@ -1,4 +1,8 @@
 package org.usfirst.frc.team5498.robot;
+import edu.wpi.first.wpilibj.SimpleRobot;
+import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.RobotDrive;
+import edu.wpi.first.wpilibj.Timer;
 
 public class 1joy extends Command {
 
@@ -16,6 +20,11 @@ value = ljoy.getRawAxis(4);
 
 boolean buttonValue;
 buttonValue=ljoy.getRawButton(0);
+
+
+    public void operatorControl() {
+        while (isOperatorControl() && isEnabled()) {
+            driveTrain.tankDrive(leftStick.getY(), rightStick.getY());
 
   }
 }
