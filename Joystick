@@ -1,4 +1,4 @@
-public class new joystick{
+public class new joystick;{
 
 ljoy = new Joystick(1);
 
