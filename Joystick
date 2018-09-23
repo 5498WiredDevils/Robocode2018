@@ -16,3 +16,6 @@ value = ljoy.getRawAxis(4);
 
 boolean buttonValue;
 buttonValue=ljoy.getRawButton(0);
+
+  }
+}
