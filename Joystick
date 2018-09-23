@@ -2,6 +2,8 @@ public class new joystick{
 
 ljoy = new Joystick(1);
 
+double value;
+
 value = ljoy .getRawAxis(0);
 value = ljoy .getRawAxis(1);
 value = ljoy .getRawAxis(2);
