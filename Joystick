@@ -1,14 +1,14 @@
 package org.usfirst.frc.team5498.robot;
 
-public class button extends Command {
+public class 1joy extends Command {
 
 
-button = new Joystick(1);
+1joy = new Joystick(1);
 
 double value;
 
-value = button .getRawAxis(0);
-value = button .getRawAxis(1);
+value = 1joy .getRawAxis(0);
+value = 1joy .getRawAxis(1);
 value = ljoy .getRawAxis(2);
 value = ljoy .getRawAxis(3);
 value = ljoy .getRawAxis(4);
