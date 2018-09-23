@@ -1,1 +1,11 @@
+package org.usfirst.frc.team5498.robot;
 
+import edu.wpi.first.wpilibj.
+
+public class lower extends Command {
+
+frontRight=new TalonSRX(0);
+frontLeft=new TalonSRX(0);
+backRight=new TalonSRX(0);
+backLeft=new TalonSRX(0);
+  }
