@@ -1,2 +1,3 @@
 public class new joystick{
 
+ljoy = new Joystick(1);
