@@ -12,3 +12,7 @@ value = button .getRawAxis(1);
 value = ljoy .getRawAxis(2);
 value = ljoy .getRawAxis(3);
 value = ljoy .getRawAxis(4);
+
+
+boolean buttonValue;
+buttonValue=ljoy.getRawButton(0);
