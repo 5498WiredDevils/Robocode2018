@@ -1,0 +1,10 @@
+public class Robot(wpilib.Interactive) {
+
+Joystick joystick1;
+Drive drive;
+
+public void robotInt(){
+joystick1 = new Joystick(1);
+drive = new Drive(new TalonSRX(2) , TalonSRX(3), TalonSRX(4), TalonSRx(5);
+         }
+ }
