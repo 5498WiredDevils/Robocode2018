@@ -16,4 +16,6 @@ public class robodrive {
 }
 public class tank extends robodrive {
 
-   
+  double leftOutput;
+  double rightOutput;
+  
