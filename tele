@@ -13,3 +13,7 @@ public class robodrive {
 
   public lowRdrive = new drive( TalonSRX(4), TalonSRX(5)); 
   public lowLdrive = new drive( TalonSRX(2), TalonSRX(3));
+}
+public class tank extends robodrive {
+
+   
