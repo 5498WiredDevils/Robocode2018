@@ -22,5 +22,5 @@ public class tank extends robodrive {
   double leftDrive = lowRdrive;
   double rightDrive = lowLdrive;
 
-  double joy0 =joystick0.getY();
-  double joy1 =joystick1.getY();
+  double joy0 = joystick0.getY();
+  double joy1 = joystick1.getY();
