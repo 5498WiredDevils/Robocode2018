@@ -8,8 +8,8 @@ import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 
 public class robodrive {
   
-  joystick0 = new joystick(0);
-  joystick1 = new joystick(1);
+  public joystick0 = new joystick(0);
+  public joystick1 = new joystick(1);
 
-  lowRdrive = new drive( TalonSRX(4), TalonSRX(5)); 
-  lowLdrive = new drive( TalonSRX(2), TalonSRX(3));
+  public lowRdrive = new drive( TalonSRX(4), TalonSRX(5)); 
+  public lowLdrive = new drive( TalonSRX(2), TalonSRX(3));
