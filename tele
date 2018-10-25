@@ -27,8 +27,9 @@ public class tank extends robodrive {
   
   public void {
   
-  if joy0 = 0
-  then leftDrive = 0;
+  if (joy0 == 0){
   
-  if joy1 = 0
+    leftDrive = 0;
+  }
+   else 
   then rightDrive = 0;
