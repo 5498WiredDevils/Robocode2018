@@ -8,8 +8,8 @@ import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 
 public class robodrive {
   
-  public joystick0 = new joystick(0);
-  public joystick1 = new joystick(1);
+  public joystick0 = new Joystick(0);
+  public joystick1 = new Joystick(1);
 
   public lowRdrive = new drive( TalonSRX(4), TalonSRX(5)); 
   public lowLdrive = new drive( TalonSRX(2), TalonSRX(3));
@@ -19,17 +19,18 @@ public class tank extends robodrive {
   double leftOutput;
   double rightOutput;
   
-  double leftDrive = lowRdrive;
-  double rightDrive = lowLdrive;
+  double leftDrive = lowRdrive.set();
+  double rightDrive = lowLdrive.set();
 
-  double joy0 = joystick0.getY();
-  double joy1 = joystick1.getY();
+  double joyleft = joystick0.getY();
+  double joyright = joystick1.getY();
   
   public void {
   
-  if (joy0 == 0){
+  if (joyleft == 0){
   
     leftDrive = 0;
   }
-   else 
-  then rightDrive = 0;
+   else {
+     leftDrive = joyleft ;
+       }
