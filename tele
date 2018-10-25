@@ -11,4 +11,5 @@ public class robodrive {
   joystick0 = new joystick(0);
   joystick1 = new joystick(1);
 
-  lowdrive =new drive( TalonSRX(2), TalonSRX(3), TalonSRX(4), TalonSRX(5)); 
+  lowRdrive = new drive(  TalonSRX(4), TalonSRX(5)); 
+  lowLdrive = new drive( TalonSRX(2), TalonSRX(3));
