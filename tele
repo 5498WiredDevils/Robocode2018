@@ -24,3 +24,11 @@ public class tank extends robodrive {
 
   double joy0 = joystick0.getY();
   double joy1 = joystick1.getY();
+  
+  public void {
+  
+  if joy0 = 0
+  then leftDrive = 0
+  
+  if joy1 = 0
+  then rightDrive = 0
